@@ -8,7 +8,7 @@ public class CouponNumber {
 		return (int) (Math.random() * n);
     }
 
-	public static void main(String[] args) {
+   public static void main(String[] args) {
 		System.out.println("Enter a card Number to Draw: ");
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
