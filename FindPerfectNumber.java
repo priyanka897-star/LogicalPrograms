@@ -18,7 +18,7 @@ public class FindPerfectNumber {
 	}
    public static void main(String args[]) {
 		int number, s;
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner  = new Scanner(System.in);
 		System.out.print("Enter the number: ");
 		number = scanner.nextInt();
 		// calling the function
