@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FibnocciSeries {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter a Number  ");
+		System.out.println("Enter a Number");
 		int number = scanner.nextInt();
 		int number1 = 0;
 		int number2 = 1;
