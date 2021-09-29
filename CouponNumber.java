@@ -6,7 +6,7 @@ public class CouponNumber {
 	// return a random coupon between 0 and n-1
 	public static int coupon(int n) {
 		return (int) (Math.random() * n);
-	}
+    }
 
 	public static void main(String[] args) {
 		System.out.println("Enter a card Number to Draw: ");

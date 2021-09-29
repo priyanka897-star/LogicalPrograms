@@ -23,7 +23,7 @@ public class FindPerfectNumber {
 		number = scanner.nextInt();
 		// calling the function
 		s = isPerfect(number);
-		if (s == number) {
+		if (s  == number) {
 			System.out.println(number +" "+ "is Perfect Number");
 		} else {
 			System.out.println(number +" " + "is not a Perfect Number");

@@ -5,7 +5,7 @@ import java.time.temporal.ChronoUnit;
 import java.time.*;
 
 public class ElapsedTime {
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		LocalTime StartTime = LocalTime.of(19, 21, 40);
 		LocalTime StopTime = LocalTime.of(21, 22, 00);
 		long hours = ChronoUnit.HOURS.between(StartTime, StopTime);
