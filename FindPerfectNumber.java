@@ -11,12 +11,11 @@ public class FindPerfectNumber {
 			if (num % i == 0) {
 				// calculates the sum of factors
 				sum = sum + i;
-			}
+			 }
 		}
-
-		return sum;
+               return sum;
 	}
-   public static void main(String args[]) {
+    public static void main(String args[]) {
 		int number, s;
 		Scanner scanner  = new Scanner(System.in);
 		System.out.print("Enter the number: ");
