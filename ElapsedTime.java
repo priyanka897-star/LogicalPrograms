@@ -11,7 +11,7 @@ public class ElapsedTime {
 		long hours = ChronoUnit.HOURS.between(StartTime, StopTime);
 		long minutes = ChronoUnit.MINUTES.between(StartTime, StopTime);
 		long seconds = ChronoUnit.SECONDS.between(StartTime, StopTime);
-		long toConvertInMinutes = minutes % 6;
+		long toConvertInMinutes = minutes % 60;
 		long toconvertInsecond = seconds % 60;
 		System.out.println("Difference is " + hours + " hours " + toConvertInMinutes + " minutes " + toconvertInsecond
 				+ " seconds.");
